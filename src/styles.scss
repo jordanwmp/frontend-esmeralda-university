@@ -1,1 +1,78 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+span.info-user {
+    color: #666;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.avatar-perfil .avatar-container {
+    margin-bottom: 10px;
+}
+
+.box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-profile {
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+    .avatar-perfil .avatar-container
+    {
+        position: absolute;
+        left: 15px;
+        top: 153px;
+    }
+
+    .avatar-perfil .avatar-content
+    {
+        border: 3px solid #e2e2e2;
+    }
+
+    .profile-header, .profile-content
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .profile-header {
+        background-image: url("https://images.unsplash.com/photo-1529072453989-e2ea167fd2c6");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 210px;
+    }
+
+    .profile-content
+    {
+        height: 190px;
+        padding-left: 15px;
+        padding-top: 60px;
+        h3{
+            margin-bottom: 0;
+        }
+
+        span.user-level{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button{
+            margin-right: 5px;
+        }
+    }
+}
+
